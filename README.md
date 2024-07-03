@@ -5,7 +5,7 @@ This project demonstrates a DevSecOps setup that automates the deployment and se
 
 ## Technologies
 - Terraform:** Infrastructure as Code (IaC) for AWS/Azure
-- **Python:** Example application
+- Python: Example application
 - GitHub Actions:** CI/CD pipeline for security checks and deployment
 
 ## Steps
