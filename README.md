@@ -1,29 +1,39 @@
-# DevSecOps project
+# DevSecOps Project
 
-## Project description
-This project demonstrates a DevSecOps setup that automates the deployment and security auditing of infrastructure and application code.
+This project demonstrates a comprehensive DevSecOps setup that includes automated backups, performance monitoring, and infrastructure as code (IaC) using Terraform.
 
-## Technologies
-- Terraform:** Infrastructure as Code (IaC) for AWS/Azure
-- Python: Example application
-- GitHub Actions:** CI/CD pipeline for security checks and deployment
+## Table of Contents
 
-## Steps
-1. terraform setup and deployment
-2. add Python application code
-3. configure security checks
-4. set up GitHub Actions for automation
+- [Project Overview](#project-overview)
+- [Features](#features)
+- [Setup and Installation](#setup-and-installation)
+- [Usage](#usage)
+- [Infrastructure](#infrastructure)
+- [Backup and Restore](#backup-and-restore)
+- [Monitoring](#monitoring)
+- [CI/CD](#cicd)
+- [Contributing](#contributing)
+- [License](#license)
 
-## Security scans
-- Terraform:** `terraform validate`, `terraform fmt`
-- Python:** `bandit`, `safety`
+## Project Overview
 
-## Usage
-1. clone repository: `git clone https://github.com/deinusername/devsecops-project.git`
-2. change to the directory: `cd devsecops-project`
-3. run security checks: `terraform validate`, `bandit -r .`
+This project includes:
+- A Flask application with Prometheus metrics for performance monitoring.
+- Automated backups using AWS Lambda and S3.
+- Infrastructure as code (IaC) with Terraform.
+- Security and compliance checks using GitHub Actions.
 
-## Results
-Automated security scans and infrastructure provisioning via GitHub Actions.
+## Features
 
-Translated with DeepL.com (free version)
+- **Automated Backups**: Scheduled AWS Lambda function to backup data to an S3 bucket.
+- **Performance Monitoring**: Integrated Prometheus metrics in the Flask application.
+- **Infrastructure as Code**: Manage AWS resources using Terraform.
+- **Security and Compliance**: CI/CD pipeline with security checks using Bandit and Safety.
+
+## Setup and Installation
+
+### Prerequisites
+
+- Python 3.9+
+- Terraform 1.0+
+- AWS CLI configured with appropriate credentials
